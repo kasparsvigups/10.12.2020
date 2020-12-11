@@ -1,0 +1,46 @@
+
+
+.Header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: block;
+    height: 65px;
+    background-color: #4CAF50;
+    animation-name:example ;
+    animation-duration: 60s;
+}
+@keyframes example {
+    2% {background-color: red;}
+    4% {background-color: sienna;}
+    6% {background-color: rebeccapurple;}
+    8% {background-color: darkblue;}
+    10% {background-color: honeydew;}
+    12% {background-color: yellow;}
+    14% {background-color: blue;}
+    100% {background-color: green;}
+}
+.Navigation {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+li {
+    float: left;
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
